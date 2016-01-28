@@ -1,0 +1,233 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:NeoPixel
+LIBS:device
+LIBS:WS2812B_Footprint_test-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L WS2812B L1
+U 1 1 56993B96
+P 5700 3500
+F 0 "L1" H 5700 3500 60  0000 C CNN
+F 1 "WS2812B" H 5700 3800 60  0001 C CNN
+F 2 "NeoPixel:WS2812B" H 5700 3500 60  0001 C CNN
+F 3 "" H 5700 3500 60  0000 C CNN
+	1    5700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 56993BD5
+P 5100 3300
+F 0 "C1" V 5050 3100 50  0000 L CNN
+F 1 "104" V 5150 3100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5138 3150 50  0001 C CNN
+F 3 "" H 5100 3300 50  0000 C CNN
+	1    5100 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR01
+U 1 1 56993C88
+P 5200 4600
+F 0 "#PWR01" H 5200 4450 50  0001 C CNN
+F 1 "+5V" H 5200 4740 50  0000 C CNN
+F 2 "" H 5200 4600 50  0000 C CNN
+F 3 "" H 5200 4600 50  0000 C CNN
+	1    5200 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 56993CA0
+P 5200 4350
+F 0 "#FLG02" H 5200 4445 50  0001 C CNN
+F 1 "PWR_FLAG" H 5200 4530 50  0000 C CNN
+F 2 "" H 5200 4350 50  0000 C CNN
+F 3 "" H 5200 4350 50  0000 C CNN
+	1    5200 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 56993CB8
+P 4600 4600
+F 0 "#PWR03" H 4600 4350 50  0001 C CNN
+F 1 "GND" H 4600 4450 50  0000 C CNN
+F 2 "" H 4600 4600 50  0000 C CNN
+F 3 "" H 4600 4600 50  0000 C CNN
+	1    4600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P1
+U 1 1 56993CD0
+P 6650 4450
+F 0 "P1" H 6650 4700 50  0000 C CNN
+F 1 "CONN_01X04" V 6750 4450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 6650 4450 50  0001 C CNN
+F 3 "" H 6650 4450 50  0000 C CNN
+	1    6650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 569941CC
+P 6350 3300
+F 0 "R1" V 6250 3250 50  0000 L CNN
+F 1 "470" V 6450 3250 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6350 3300 50  0001 C CNN
+F 3 "" H 6350 3300 50  0000 C CNN
+	1    6350 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 569948FE
+P 4600 4350
+F 0 "#FLG04" H 4600 4445 50  0001 C CNN
+F 1 "PWR_FLAG" H 4600 4530 50  0000 C CNN
+F 2 "" H 4600 4350 50  0000 C CNN
+F 3 "" H 4600 4350 50  0000 C CNN
+	1    4600 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 4600 0    39   Input ~ 0
+GND
+Text GLabel 5950 4500 0    39   Input ~ 0
+DIN
+Text GLabel 5950 4300 0    39   Input ~ 0
+PWR
+Text GLabel 5950 4400 0    39   Input ~ 0
+DOUT
+Wire Wire Line
+	5200 4350 5200 4600
+Wire Wire Line
+	4600 4350 4600 4600
+$Comp
+L +5V #PWR05
+U 1 1 56995399
+P 4800 3300
+F 0 "#PWR05" H 4800 3150 50  0001 C CNN
+F 1 "+5V" H 4800 3440 50  0000 C CNN
+F 2 "" H 4800 3300 50  0000 C CNN
+F 3 "" H 4800 3300 50  0000 C CNN
+	1    4800 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6600 3700 2    39   Input ~ 0
+GND
+Text GLabel 6600 3300 2    39   Input ~ 0
+DIN
+Text GLabel 4600 3300 0    39   Input ~ 0
+PWR
+Text GLabel 4600 3700 0    39   Input ~ 0
+DOUT
+$Comp
+L GND #PWR06
+U 1 1 569954A6
+P 6350 3700
+F 0 "#PWR06" H 6350 3450 50  0001 C CNN
+F 1 "GND" H 6350 3550 50  0000 C CNN
+F 2 "" H 6350 3700 50  0000 C CNN
+F 3 "" H 6350 3700 50  0000 C CNN
+	1    6350 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3700 6600 3700
+Connection ~ 6350 3700
+Wire Wire Line
+	6450 3300 6600 3300
+Wire Wire Line
+	5250 3700 4600 3700
+Wire Wire Line
+	4600 3300 4950 3300
+Connection ~ 4800 3300
+Wire Wire Line
+	6150 3300 6250 3300
+Wire Notes Line
+	4250 4000 6900 4000
+Wire Notes Line
+	6900 3050 6900 4850
+Wire Notes Line
+	6900 4850 4250 4850
+Wire Notes Line
+	4250 4850 4250 3050
+Wire Notes Line
+	4250 3050 6900 3050
+Wire Notes Line
+	5650 4000 5650 4850
+Wire Wire Line
+	5950 4300 6450 4300
+Wire Wire Line
+	6450 4400 5950 4400
+Wire Wire Line
+	5950 4500 6450 4500
+Wire Wire Line
+	5950 4600 6450 4600
+$Comp
+L +5V #PWR07
+U 1 1 56995BC6
+P 6200 4300
+F 0 "#PWR07" H 6200 4150 50  0001 C CNN
+F 1 "+5V" H 6200 4440 50  0000 C CNN
+F 2 "" H 6200 4300 50  0000 C CNN
+F 3 "" H 6200 4300 50  0000 C CNN
+	1    6200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 56995BDD
+P 6200 4600
+F 0 "#PWR08" H 6200 4350 50  0001 C CNN
+F 1 "GND" H 6200 4450 50  0000 C CNN
+F 2 "" H 6200 4600 50  0000 C CNN
+F 3 "" H 6200 4600 50  0000 C CNN
+	1    6200 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 4600
+Connection ~ 6200 4300
+$EndSCHEMATC

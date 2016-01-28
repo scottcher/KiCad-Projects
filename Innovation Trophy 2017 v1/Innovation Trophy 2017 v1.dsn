@@ -1,0 +1,358 @@
+(pcb "\\nas-msw-20\e46899\My Documents\KiCad Projects\Innovation Trophy 2017 v1\Innovation Trophy 2017 v1.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.1-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 132444 -31140 223036 -121237)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Capacitors_SMD:C_0603_HandSoldering
+      (place C1 177550 -41780 front 0 (PN 104))
+      (place C2 184530 -42290 front 0 (PN 104))
+      (place C3 191640 -44580 front 0 (PN 104))
+      (place C4 197490 -48010 front 0 (PN 104))
+      (place C5 202570 -52960 front 0 (PN 104))
+      (place C6 206120 -58040 front 0 (PN 104))
+      (place C7 208790 -64900 front 0 (PN 104))
+      (place C8 210440 -72520 front 0 (PN 104))
+      (place C9 210440 -80140 front 0 (PN 104))
+      (place C10 209170 -87120 front 0 (PN 104))
+      (place C11 206760 -94110 front 0 (PN 104))
+      (place C12 202950 -99440 front 0 (PN 104))
+      (place C13 197740 -103510 front 0 (PN 104))
+      (place C14 191520 -106680 front 0 (PN 104))
+      (place C15 184280 -109600 front 0 (PN 104))
+      (place C16 177800 -110240 front 0 (PN 104))
+      (place C17 170940 -109600 front 0 (PN 104))
+      (place C18 163320 -107320 front 0 (PN 104))
+      (place C19 156970 -103250 front 0 (PN 104))
+      (place C20 151890 -97920 front 0 (PN 104))
+      (place C21 148590 -92460 front 0 (PN 104))
+      (place C22 146300 -86230 front 0 (PN 104))
+      (place C23 144270 -79380 front 0 (PN 104))
+      (place C24 144270 -71120 front 0 (PN 104))
+      (place C25 146300 -62360 front 0 (PN 104))
+      (place C26 150370 -57020 front 0 (PN 104))
+      (place C27 153420 -52200 front 0 (PN 104))
+      (place C28 157990 -48640 front 0 (PN 104))
+      (place C29 163960 -45720 front 0 (PN 104))
+      (place C30 169670 -43180 front 0 (PN 104))
+    )
+    (component NeoPixel:WS2812B
+      (place L1 177800 -35560 front 0 (PN WS2812B))
+      (place L2 186440 -36320 front 348 (PN WS2812B))
+      (place L3 194440 -38740 front 336 (PN WS2812B))
+      (place L4 201680 -43050 front 324 (PN WS2812B))
+      (place L5 208030 -48640 front 312 (PN WS2812B))
+      (place L6 212980 -55500 front 300 (PN WS2812B))
+      (place L7 216410 -63370 front 288 (PN WS2812B))
+      (place L8 218310 -72010 front 276 (PN WS2812B))
+      (place L9 218190 -80770 front 264 (PN WS2812B))
+      (place L10 216410 -88900 front 252 (PN WS2812B))
+      (place L11 212980 -96900 front 240 (PN WS2812B))
+      (place L12 208030 -103760 front 228 (PN WS2812B))
+      (place L13 201800 -109350 front 216 (PN WS2812B))
+      (place L14 194310 -113280 front 204 (PN WS2812B))
+      (place L15 185670 -116080 front 192 (PN WS2812B))
+      (place L16 177800 -116840 front 180 (PN WS2812B))
+      (place L17 169160 -115950 front 168 (PN WS2812B))
+      (place L18 160530 -113030 front 156 (PN WS2812B))
+      (place L19 153420 -108840 front 144 (PN WS2812B))
+      (place L20 146300 -102240 front 132 (PN WS2812B))
+      (place L21 141860 -95760 front 120 (PN WS2812B))
+      (place L22 138940 -88390 front 108 (PN WS2812B))
+      (place L23 137030 -80140 front 96 (PN WS2812B))
+      (place L24 137160 -71630 front 84 (PN WS2812B))
+      (place L25 139070 -63250 front 72 (PN WS2812B))
+      (place L26 142490 -55370 front 60 (PN WS2812B))
+      (place L27 147450 -48510 front 48 (PN WS2812B))
+      (place L28 153670 -43180 front 36 (PN WS2812B))
+      (place L29 160910 -38990 front 24 (PN WS2812B))
+      (place L30 169040 -36320 front 12 (PN WS2812B))
+    )
+  )
+  (library
+    (image Capacitors_SMD:C_0603_HandSoldering
+      (outline (path signal 50  -1850 750  1850 750))
+      (outline (path signal 50  -1850 -750  1850 -750))
+      (outline (path signal 50  -1850 750  -1850 -750))
+      (outline (path signal 50  1850 750  1850 -750))
+      (outline (path signal 150  -350 600  350 600))
+      (outline (path signal 150  350 -600  -350 -600))
+      (pin Rect[T]Pad_1200x750_um 1 -950 0)
+      (pin Rect[T]Pad_1200x750_um 2 950 0)
+    )
+    (image NeoPixel:WS2812B
+      (outline (path signal 150  1947.43 0  1852.12 -601.79  1575.51 -1144.67  1144.67 -1575.51
+            601.79 -1852.12  0 -1947.43  -601.79 -1852.12  -1144.67 -1575.51
+            -1575.51 -1144.67  -1852.12 -601.79  -1947.43 0  -1852.12 601.79
+            -1575.51 1144.67  -1144.67 1575.51  -601.79 1852.12  0 1947.43
+            601.79 1852.12  1144.67 1575.51  1575.51 1144.67  1852.12 601.79))
+      (outline (path signal 150  2050 -2450  2500 -2150))
+      (outline (path signal 150  2500 -2150  2450 -2150))
+      (outline (path signal 150  2500 2500  -2500 2500))
+      (outline (path signal 150  -2500 2500  -2500 -2500))
+      (outline (path signal 150  -2500 -2500  2500 -2500))
+      (outline (path signal 150  2500 -2500  2500 2500))
+      (pin Rect[T]Pad_1500x900_um 4 2450 1650)
+      (pin Rect[T]Pad_1500x900_um 3 2450 -1650)
+      (pin Rect[T]Pad_1500x900_um 1 -2450 1650)
+      (pin Rect[T]Pad_1500x900_um 2 -2450 -1650)
+    )
+    (padstack Rect[T]Pad_1200x750_um
+      (shape (rect F.Cu -600 -375 600 375))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x900_um
+      (shape (rect F.Cu -750 -450 750 450))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(C1-Pad1)"
+      (pins C1-1 L1-1)
+    )
+    (net GND
+      (pins C1-2 C2-2 C3-2 C4-2 C5-2 C6-2 C7-2 C8-2 C9-2 C10-2 C11-2 C12-2 C13-2 C14-2
+        C15-2 C16-2 C17-2 C18-2 C19-2 C20-2 C21-2 C22-2 C23-2 C24-2 C25-2 C26-2 C27-2
+        C28-2 C29-2 C30-2 L1-3 L2-3 L3-3 L4-3 L5-3 L6-3 L7-3 L8-3 L9-3 L10-3 L11-3
+        L12-3 L13-3 L14-3 L15-3 L16-3 L17-3 L18-3 L19-3 L20-3 L21-3 L22-3 L23-3 L24-3
+        L25-3 L26-3 L27-3 L28-3 L29-3 L30-3)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins C2-1 L2-1)
+    )
+    (net "Net-(C3-Pad1)"
+      (pins C3-1 L3-1)
+    )
+    (net "Net-(C4-Pad1)"
+      (pins C4-1 L4-1)
+    )
+    (net "Net-(C5-Pad1)"
+      (pins C5-1 L5-1)
+    )
+    (net "Net-(C6-Pad1)"
+      (pins C6-1 L6-1)
+    )
+    (net "Net-(C7-Pad1)"
+      (pins C7-1 L7-1)
+    )
+    (net "Net-(C8-Pad1)"
+      (pins C8-1 L8-1)
+    )
+    (net "Net-(C9-Pad1)"
+      (pins C9-1 L9-1)
+    )
+    (net "Net-(C10-Pad1)"
+      (pins C10-1 L10-1)
+    )
+    (net "Net-(C11-Pad1)"
+      (pins C11-1 L11-1)
+    )
+    (net "Net-(C12-Pad1)"
+      (pins C12-1 L12-1)
+    )
+    (net "Net-(C13-Pad1)"
+      (pins C13-1 L13-1)
+    )
+    (net "Net-(C14-Pad1)"
+      (pins C14-1 L14-1)
+    )
+    (net "Net-(C15-Pad1)"
+      (pins C15-1 L15-1)
+    )
+    (net "Net-(C16-Pad1)"
+      (pins C16-1 L16-1)
+    )
+    (net "Net-(C17-Pad1)"
+      (pins C17-1 L17-1)
+    )
+    (net "Net-(C18-Pad1)"
+      (pins C18-1 L18-1)
+    )
+    (net "Net-(C19-Pad1)"
+      (pins C19-1 L19-1)
+    )
+    (net "Net-(C20-Pad1)"
+      (pins C20-1 L20-1)
+    )
+    (net "Net-(C21-Pad1)"
+      (pins C21-1 L21-1)
+    )
+    (net "Net-(C22-Pad1)"
+      (pins C22-1 L22-1)
+    )
+    (net "Net-(C23-Pad1)"
+      (pins C23-1 L23-1)
+    )
+    (net "Net-(C24-Pad1)"
+      (pins C24-1 L24-1)
+    )
+    (net "Net-(C25-Pad1)"
+      (pins C25-1 L25-1)
+    )
+    (net "Net-(C26-Pad1)"
+      (pins C26-1 L26-1)
+    )
+    (net "Net-(C27-Pad1)"
+      (pins C27-1 L27-1)
+    )
+    (net "Net-(C28-Pad1)"
+      (pins C28-1 L28-1)
+    )
+    (net "Net-(C29-Pad1)"
+      (pins C29-1 L29-1)
+    )
+    (net "Net-(C30-Pad1)"
+      (pins C30-1 L30-1)
+    )
+    (net "Net-(L1-Pad4)"
+      (pins L1-4)
+    )
+    (net "Net-(L1-Pad2)"
+      (pins L1-2 L2-4)
+    )
+    (net "Net-(L2-Pad2)"
+      (pins L2-2 L3-4)
+    )
+    (net "Net-(L27-Pad2)"
+      (pins L27-2 L28-4)
+    )
+    (net "Net-(L10-Pad4)"
+      (pins L9-2 L10-4)
+    )
+    (net "Net-(L28-Pad2)"
+      (pins L28-2 L29-4)
+    )
+    (net "Net-(L29-Pad2)"
+      (pins L29-2 L30-4)
+    )
+    (net "Net-(L30-Pad2)"
+      (pins L30-2)
+    )
+    (net "Net-(L20-Pad2)"
+      (pins L20-2 L21-4)
+    )
+    (net "Net-(L10-Pad2)"
+      (pins L10-2 L11-4)
+    )
+    (net "Net-(L11-Pad2)"
+      (pins L11-2 L12-4)
+    )
+    (net "Net-(L12-Pad2)"
+      (pins L12-2 L13-4)
+    )
+    (net "Net-(L13-Pad2)"
+      (pins L13-2 L14-4)
+    )
+    (net "Net-(L14-Pad2)"
+      (pins L14-2 L15-4)
+    )
+    (net "Net-(L15-Pad2)"
+      (pins L15-2 L16-4)
+    )
+    (net "Net-(L16-Pad2)"
+      (pins L16-2 L17-4)
+    )
+    (net "Net-(L17-Pad2)"
+      (pins L17-2 L18-4)
+    )
+    (net "Net-(L18-Pad2)"
+      (pins L18-2 L19-4)
+    )
+    (net "Net-(L19-Pad2)"
+      (pins L19-2 L20-4)
+    )
+    (net "Net-(L21-Pad2)"
+      (pins L21-2 L22-4)
+    )
+    (net "Net-(L22-Pad2)"
+      (pins L22-2 L23-4)
+    )
+    (net "Net-(L23-Pad2)"
+      (pins L23-2 L24-4)
+    )
+    (net "Net-(L24-Pad2)"
+      (pins L24-2 L25-4)
+    )
+    (net "Net-(L25-Pad2)"
+      (pins L25-2 L26-4)
+    )
+    (net "Net-(L3-Pad2)"
+      (pins L3-2 L4-4)
+    )
+    (net "Net-(L4-Pad2)"
+      (pins L4-2 L5-4)
+    )
+    (net "Net-(L5-Pad2)"
+      (pins L5-2 L6-4)
+    )
+    (net "Net-(L6-Pad2)"
+      (pins L6-2 L7-4)
+    )
+    (net "Net-(L7-Pad2)"
+      (pins L7-2 L8-4)
+    )
+    (net "Net-(L8-Pad2)"
+      (pins L8-2 L9-4)
+    )
+    (net "Net-(L26-Pad2)"
+      (pins L26-2 L27-4)
+    )
+    (class kicad_default "" GND "Net-(C1-Pad1)" "Net-(C10-Pad1)" "Net-(C11-Pad1)"
+      "Net-(C12-Pad1)" "Net-(C13-Pad1)" "Net-(C14-Pad1)" "Net-(C15-Pad1)"
+      "Net-(C16-Pad1)" "Net-(C17-Pad1)" "Net-(C18-Pad1)" "Net-(C19-Pad1)"
+      "Net-(C2-Pad1)" "Net-(C20-Pad1)" "Net-(C21-Pad1)" "Net-(C22-Pad1)" "Net-(C23-Pad1)"
+      "Net-(C24-Pad1)" "Net-(C25-Pad1)" "Net-(C26-Pad1)" "Net-(C27-Pad1)"
+      "Net-(C28-Pad1)" "Net-(C29-Pad1)" "Net-(C3-Pad1)" "Net-(C30-Pad1)" "Net-(C4-Pad1)"
+      "Net-(C5-Pad1)" "Net-(C6-Pad1)" "Net-(C7-Pad1)" "Net-(C8-Pad1)" "Net-(C9-Pad1)"
+      "Net-(L1-Pad2)" "Net-(L1-Pad4)" "Net-(L10-Pad2)" "Net-(L10-Pad4)" "Net-(L11-Pad2)"
+      "Net-(L12-Pad2)" "Net-(L13-Pad2)" "Net-(L14-Pad2)" "Net-(L15-Pad2)"
+      "Net-(L16-Pad2)" "Net-(L17-Pad2)" "Net-(L18-Pad2)" "Net-(L19-Pad2)"
+      "Net-(L2-Pad2)" "Net-(L20-Pad2)" "Net-(L21-Pad2)" "Net-(L22-Pad2)" "Net-(L23-Pad2)"
+      "Net-(L24-Pad2)" "Net-(L25-Pad2)" "Net-(L26-Pad2)" "Net-(L27-Pad2)"
+      "Net-(L28-Pad2)" "Net-(L29-Pad2)" "Net-(L3-Pad2)" "Net-(L30-Pad2)" "Net-(L4-Pad2)"
+      "Net-(L5-Pad2)" "Net-(L6-Pad2)" "Net-(L7-Pad2)" "Net-(L8-Pad2)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
