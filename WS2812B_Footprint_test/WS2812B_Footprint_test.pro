@@ -1,4 +1,4 @@
-update=1/15/2016 1:58:36 PM
+update=2/4/2016 11:23:58 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -57,5 +57,5 @@ LibName25=opto
 LibName26=atmel
 LibName27=contrib
 LibName28=valves
-LibName29=//nas-msw-20/e46899/My Documents/KiCad Projects/Libraries/Library/NeoPixel
-LibName30=C:/Program Files/KiCad/share/kicad/library/device
+LibName29=C:/Program Files/KiCad/share/kicad/library/device
+LibName30=Library/NeoPixel
